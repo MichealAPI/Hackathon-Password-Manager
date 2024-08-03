@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b638da3-c80f-433c-b656-c3002c5dbb0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Hackathon_Password_Manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/key.key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/impl/database_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/handler/impl/database_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/menu_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,7 @@
     "Python.database_utils.executor": "Debug",
     "Python.main.executor": "Run",
     "Python.menu_handler.executor": "Run",
+    "Python.password_manager_app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -76,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722636149959</updated>
       <workItem from="1722636151340" duration="2335000" />
-      <workItem from="1722673448032" duration="2378000" />
+      <workItem from="1722673448032" duration="5649000" />
     </task>
     <servers />
   </component>
@@ -85,10 +80,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$database_utils.coverage" NAME="database_utils Coverage Results" MODIFIED="1722637082696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$database_loader.coverage" NAME="database_loader Coverage Results" MODIFIED="1722675267307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handler/impl" />
+    <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$database_loader.coverage" NAME="database_loader Coverage Results" MODIFIED="1722678374833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handler/impl" />
     <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$Main.coverage" NAME="Main Coverage Results" MODIFIED="1722637181006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$main.coverage" NAME="main Coverage Results" MODIFIED="1722675525491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$main.coverage" NAME="main Coverage Results" MODIFIED="1722679493695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$menu_handler.coverage" NAME="menu_handler Coverage Results" MODIFIED="1722637040727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$database_creator.coverage" NAME="database_creator Coverage Results" MODIFIED="1722675155578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handler/impl" />
+    <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$database_creator.coverage" NAME="database_creator Coverage Results" MODIFIED="1722675893926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/handler/impl" />
+    <SUITE FILE_PATH="coverage/Hackathon_Password_Manager$password_manager_app.coverage" NAME="password_manager_app Coverage Results" MODIFIED="1722679376337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>

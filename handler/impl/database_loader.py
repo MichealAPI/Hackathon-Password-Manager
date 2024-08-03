@@ -1,9 +1,13 @@
 import json
+import tkinter
 
+from app.password_manager_app import PasswordManagerApp
 from handler.operation_handler import OperationHandler
 import util.cryptography_util
 import util.file_util as f_util
 from tkinter.filedialog import askopenfilename
+from tkinter import *
+from tkinter import messagebox
 
 
 class DatabaseLoader(OperationHandler):
@@ -35,7 +39,14 @@ class DatabaseLoader(OperationHandler):
 
         decrypted_content = f.decrypt(encrypted_content)
 
-        return json.loads(decrypted_content.decode("utf-8"))
+        val = json.loads(decrypted_content.decode("utf-8"))
+
+        if val is not None:
+            root = tkinter.Tk()
+
+            PasswordManagerApp(root, "default_key", file_name, key)
+
+            root.mainloop()
 
     def get_id(self) -> str:
         return self.identifier

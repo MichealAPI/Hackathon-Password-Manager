@@ -1,4 +1,7 @@
+import tk
+
 from handler.operation_handler import OperationHandler
+from app.password_manager_app import PasswordManagerApp
 
 
 def handle_menu(handlers: dict):  # dict: {description: OperationHandler}
@@ -11,11 +14,8 @@ def handle_menu(handlers: dict):  # dict: {description: OperationHandler}
             print("Invalid choice, please try again")
             continue
 
-        val = operations[choice].run()
+        operations[choice].run()
 
-        if operations[choice].get_id() == "DatabaseLoader" and val is not None:
-            print(val)
-            break
 
 
 def print_menu(handlers: dict) -> list:
