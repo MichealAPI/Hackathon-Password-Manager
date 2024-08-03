@@ -1,4 +1,10 @@
+from handler.impl.database_loader import DatabaseLoader
+from handler.impl.database_creator import DatabaseCreator
+from menu_handler import handle_menu
 
-import menu_handler as mh
+handlers = {
+    "Loads a Database from file": DatabaseLoader(),
+    "Creates a new Database file along with its encryption key": DatabaseCreator()
+}
 
-mh.print_input_menu()
+handle_menu(handlers)
